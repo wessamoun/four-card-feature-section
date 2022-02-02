@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  padding: 15px;
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+    padding: 15px;
+  }
+}
+
+.src {
+  position: absolute;
+  z-index: -1;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 375px) {
+  section {
+    width: 375px;
+    padding: 15px;
+  }
+}
+
+section .header {
+  text-align: center;
+}
+
+section .header .head {
+  font-size: 35px;
+  font-weight: 200;
+  color: #4c4e61;
+}
+
+@media (max-width: 375px) {
+  section .header .head {
+    font-size: 25px;
+  }
+}
+
+section .header b {
+  font-size: 35px;
+  color: #4c4e61;
+  margin-bottom: 20px;
+  display: block;
+}
+
+@media (max-width: 375px) {
+  section .header b {
+    font-size: 25px;
+  }
+}
+
+section .header .desc {
+  color: #a3a5ae;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 375px) {
+  section .header .desc {
+    font-size: 14px;
+  }
+}
+
+section .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 375px) {
+  section .boxes {
+    gap: 0;
+  }
+}
+
+section .box {
+  width: 350px;
+  height: 250px;
+  padding: 30px;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 8px 10px #aaa;
+          box-shadow: 0 8px 10px #aaa;
+}
+
+section .box h1 {
+  margin-bottom: 10px;
+  color: #4c4e61;
+}
+
+section .box .image {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+section .box p {
+  color: #a3a5ae;
+  font-size: 14px;
+}
+
+section .super {
+  border-top: 4px solid #45d3d3;
+}
+
+section .team {
+  border-top: 4px solid #ea5353;
+}
+
+section .karma {
+  border-top: 4px solid #fcaf4a;
+}
+
+section .calc {
+  border-top: 4px solid #549ef2;
+}
+/*# sourceMappingURL=style.css.map */
